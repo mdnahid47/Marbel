@@ -1,0 +1,264 @@
+
+
+
+
+
+
+/* .background-img img{
+    width: 100%;
+   
+   
+    
+}
+/* margin-left:170px ;  */
+.background-text{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 200px;
+    margin-left:100px ;  */
+    
+} 
+
+.background-text h1{
+    font-family: "Roboto Slab", serif;
+    font-size: 35pt;
+    color: white;
+    margin-top: 200px;
+    
+}
+
+.background-text h3{
+    font-family: "Roboto Slab", serif;
+    font-size: 28pt;
+    color: gray;
+    margin-top: 50px;
+}
+
+.button{
+    width: 140px;
+    height: 45px;
+    background-color: #3f8dbf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+.background{
+    background-image: url("images/image/background.jpg");
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    
+}
+
+
+.background-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin: 40px ;
+}
+
+.about-area{
+    display: flex;
+  
+}
+.about h3{
+    font-size: 18pt;
+    font-family: "Roboto Slab", serif;
+   margin-top: 50px;
+}
+
+.about p{
+    font-size: 8pt;
+    font-family: "Roboto Slab", serif;
+    margin: 0px;
+}
+
+.heading1{
+    font-size: 18pt;
+}
+
+
+.card{
+    margin: 20px;
+    border: none;
+    border: 1px solid white;
+    border-radius: 0.1px 0.1px 0.1px white;
+   
+}
+.card-title{
+    font-family: "Roboto Slab","serif";
+    font-size: 18pt;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.card-title1{
+    font-family: "Roboto Slab","serif";
+    font-size: 14pt;
+    font-weight: 400;
+    color: grey;
+    margin-top: 10px;
+}
+
+.speech{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.speech img{
+    height: 30px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.speech p{
+    font-family: "Roboto Slab","serif";
+    font-size: 20pt;
+    
+}
+.contact{
+    display: flex;
+}
+.text p{
+   margin-left: 20px;
+}
+
+
+.body{
+    display: flex;
+}
+
+.footer-area{
+    padding-bottom: 20px;
+    padding-top: 2px;
+    background-color: #1e1e1e;
+    color: white;
+    
+    
+}
+
+.footer-elemnet{
+    display: flex;
+    margin-top: 50px;
+}
+
+.twitter-area{
+    margin-left: 50px;    
+}
+
+.poupular{
+    margin-left: 50px;
+}
+.about-us{
+    margin-left: 50px;
+}
+
+.underline{
+   
+    width: 1140px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: grey;
+    
+}
+
+.heading{
+    font-family: "Roboto Slab","serif";
+    font-size: 18pt;
+    font-weight: 700; 
+    color: gray;
+}
+.title{
+    font-family: "Roboto Slab","serif";
+    font-size: 18pt;
+    font-weight: 700;
+    color: gray;
+}
+
+.twitter h5{
+    font-family: "Roboto Slab","serif";
+    font-size: 18pt;
+    font-weight: 700;
+    color: gray;
+}
+
+.copyright{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+
+
+@media only screen and (max-width:767px) {
+    .background{
+        width: 100%;
+       
+    }
+    .background-text{
+       
+        width: 100%;
+        height: 100%; 
+    }
+
+    .background-text h1{
+        font-size: 30px;
+    }
+    .background-text h3{
+        font-size: 30px;
+    }
+    .button{
+        width: 50%;
+        margin-bottom: 200px;
+    }
+    
+    .about-area{
+        flex-direction: column;
+    }
+    .speech p{
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .footer-elemnet{
+        flex-direction: column;
+    }
+    .twitter-area{
+        margin-left: 0px;
+    }
+    .poupular{
+        margin-left: 0px;
+    }
+    .about-us{
+        margin-left: 0px;
+    }
+    .copyright{
+        margin-left: 0px;
+        font-size: 12px;
+    }
+  }
+
+  
+
+
